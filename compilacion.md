@@ -31,6 +31,7 @@ paloma@coatlicue:~/DISCO2/less$ sudo make install
 ~~~
 
 > OPCIONES DE INSTALL PARA ENTENDER LA INSTALACIÓN CON MAKE
+
 -c     No hace nada; por compatibilidad con viejas  versiones  de
               install  de  Unix,  donde  significaba  "copiar" en vez de
               "mover". Esta versión siempre copia.
