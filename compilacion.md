@@ -30,18 +30,11 @@ paloma@coatlicue:~/DISCO2/less$ make
 paloma@coatlicue:~/DISCO2/less$ sudo make install
 ~~~
 
-> OPCIONES DE INSTALL PARA ENTENDER LA INSTALACIÓN CON MAKE
+# OPCIONES DE INSTALL PARA ENTENDER LA INSTALACIÓN CON MAKE
 
--c     No hace nada; por compatibilidad con viejas  versiones  de
-              install  de  Unix,  donde  significaba  "copiar" en vez de
+-**c** No hace nada; por compatibilidad con viejas  versiones  de install  de  Unix,  donde  significaba  "copiar" en vez de
               "mover". Esta versión siempre copia.
--m modo, --mode=modo
-              Establece el modo de permisos para el fichero instalado  o
-              directorio a modo, que puede ser un número octal o un modo
-              simbólico como en chmod, siendo 0 el punto de partida.  El
-              modo   predeterminado   es   0755:  lectura,  escritura  y
-              ejecución para el propietario, y lectura y ejecución  para
-              el grupo y para los otros.
+-**m modo, --mode=modo** Establece el modo de permisos para el fichero instalado  o directorio a modo, que puede ser un número octal o un modo simbólico como en chmod, siendo 0 el punto de partida.  El modo   predeterminado   es   0755:  lectura,  escritura  y ejecución para el propietario, y lectura y ejecución  para el grupo y para los otros.
 
 
 ### Desinstalación manual
