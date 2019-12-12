@@ -1,10 +1,10 @@
-### Contenido de del directorio de compilación de less
+## 1. Contenido del directorio de compilación de less
 
 - Ficheros fuente con extensión .c
 - Ficheros objeto con extensión .o. Se compilan individualmente en ficheros objetos con extensión .ko.
 - Ficheros con extensión .h, cabeceras (header), parte de la anatomía del lenguaje C.
 
-### Para configurar el paquete para mi sistema
+## 2. Configurar el paquete para mi sistema
 ~~~
 $ ./configure 
 ~~~
@@ -30,7 +30,7 @@ paloma@coatlicue:~/DISCO2/less$ make
 paloma@coatlicue:~/DISCO2/less$ sudo make install
 ~~~
 
-# OPCIONES DE INSTALL PARA ENTENDER LA INSTALACIÓN CON MAKE
+### OPCIONES DE INSTALL PARA ENTENDER LA INSTALACIÓN CON MAKE
 
 -**c** No hace nada; por compatibilidad con viejas  versiones  de install  de  Unix,  donde  significaba  "copiar" en vez de
               "mover". Esta versión siempre copia.
